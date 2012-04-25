@@ -1,0 +1,18 @@
+{
+    "name": "Fullscreen Homestar Runner",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "description": "A simple Chrome extension to automatically maximize the main content of homestarrunner.com cartoons, including Strong Bad Emails, Shorts, Toons, etc.",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "incognito": "spanning",
+    "content_scripts": [
+        { "matches": ["http://homestarrunner.com/*", 
+                "http://*.homestarrunner.com/*"],
+          "js": ["fullscreen-homestar-runner.user.js"]
+        }
+    ]
+}
