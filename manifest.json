@@ -2,7 +2,7 @@
     "name": "Fullscreen Homestar Runner",
     "version": "0.1.1",
     "manifest_version": 2,
-    "description": "A Chrome extension to automatically maximize the main content of homestarrunner.com cartoons including Strong Bad emails."
+    "description": "A Chrome extension to automatically maximize the main content of homestarrunner.com cartoons including Strong Bad emails.",
     "icons": {
         "16": "icon16.png",
         "48": "icon48.png",
