@@ -12,7 +12,7 @@
     "content_scripts": [
         { "matches": ["http://homestarrunner.com/*", 
                 "http://*.homestarrunner.com/*"],
-          "js": ["fullscreen-homestar-runner.user.js"]
+          "js": ["fullscreen-homestar-runner.js"]
         }
     ]
 }

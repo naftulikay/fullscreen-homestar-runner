@@ -13,17 +13,6 @@
 // Released under the GPLv3 license
 // --------------------------------------------------------------------
 //
-// ==UserScript==
-// @name          Fullscreen Homestar Runner
-// @version	      1.1
-// @namespace     http://tkassembled.com/ns/2011/fullscreen-homestar-runner
-// @description	  Make all of homestarrunner's cartoons fill your browser window
-// @include       http://*.homestarrunner.com/*
-// @include       http://homestarrunner.com/*
-// @include		  https://*.homestarrunner.com/*
-// @include		  https://homestarrunner.com/*
-// @run-at		  document-end
-// ==/UserScript==
 
 (function() {
 	function resize() {
